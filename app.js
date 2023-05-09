@@ -28,7 +28,7 @@ app.use(
   })
 );
 mongoose                                                    //Database Connection
-  .connect(process.env.DATABASE_CONNECTION), {
+  .connect(process.env.DATABASE_CONNECTION, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     bufferCommands: false,
