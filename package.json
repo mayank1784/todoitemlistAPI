@@ -1,0 +1,19 @@
+{
+  "name": "todoitemapi",
+  "version": "1.0.0",
+  "description": "An Simple REST API for GDSC Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayank Jain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0"
+  }
+}
